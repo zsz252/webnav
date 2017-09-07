@@ -77,7 +77,7 @@ $(document).ready(function(){
 		if(h < 0){
 			h = 0
 		}
-		
+		$("#nav").animate({height:900 + 80 - h +'px'},30);
 		$("#topNav").animate({height: h+ 'px'},30)
 
 		//$("#topNav").css({'height':h + 'px'});
